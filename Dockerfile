@@ -3,7 +3,7 @@ MAINTAINER Lucas Carlson <lucas@rufy.com>
 
 # Let's get haproxy
 RUN apt-get update -q
-RUN apt-get install -y haproxy
+RUN apt-get install -y haproxy aaa
 
 RUN apt-get install -qy supervisor
 
